@@ -12,6 +12,8 @@ from kivymd.uix.behaviors import RectangularRippleBehavior
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.list import OneLineIconListItem, IconLeftWidget
 from kivy.metrics import dp
+import json
+from kivy.storage.jsonstore import JsonStore
 # Window size is set to be resizable
 Window.size = (400, 600)
 
@@ -147,6 +149,16 @@ class ModernGridApp(MDApp):
         api_url = 'http://localhost/api/scrape_data/'
         UrlRequest(api_url, on_success=self.on_request_success, on_failure=self.on_request_error, on_error=self.on_request_error)
         
+    def save_data_to_cache(self, data):
+        store = JsonStore('cache.json')
+        store.put('offers', data=data)
+
+    def load_data_from_cache(self):
+        store = JsonStore('cache.json')
+        if store.exists('offers'):
+            return store.get('offers')['data']
+        return None
+
     def on_request_success(self, request, result):
         # Update the grid with the new data
         for item in result:
@@ -155,12 +167,20 @@ class ModernGridApp(MDApp):
                 self.product_ids.add(product_id)  # Add the product ID to the set
                 product_box = ProductCard(product_data=item)
                 self.grid_layout.add_widget(product_box)
-            else:
-                print(f"Product with ID {product_id} already exists in the grid.")
+        
+        # As the request was successful, save the data to cache
+        self.save_data_to_cache(result)
 
     def on_request_error(self, request, result):
         print("Error fetching data from the API:", request, result)
-        # Add a UI element to indicate the error here
+        # Load cached data if available
+        cached_data = self.load_data_from_cache()
+        if cached_data:
+            print("Loading data from cache.")
+            self.on_request_success(request, cached_data)
+        else:
+            print("No cached data available.")
+            # Add a UI element to indicate the error here
 
 if __name__ == '__main__':
     ModernGridApp().run()
