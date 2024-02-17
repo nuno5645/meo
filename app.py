@@ -1,3 +1,5 @@
+from kivy.lang import Builder
+from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
 from kivymd.app import MDApp
 from kivymd.uix.button import MDRaisedButton
 from kivymd.uix.gridlayout import MDGridLayout
@@ -12,175 +14,139 @@ from kivymd.uix.behaviors import RectangularRippleBehavior
 from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.list import OneLineIconListItem, IconLeftWidget
 from kivy.metrics import dp
-import json
 from kivy.storage.jsonstore import JsonStore
-# Window size is set to be resizable
-Window.size = (400, 600)
+from kivymd.uix.screen import MDScreen
+Window.size = (400, 650)
 
 class ProductCard(MDCard, RectangularRippleBehavior):
     def __init__(self, product_data, **kwargs):
         super().__init__(**kwargs)
+        self.product_data = product_data
         self.size_hint_x = 1
         self.size_hint_y = None
-        self.height = "200dp"  # Increased height to accommodate availability indicator
+        self.height = "200dp"
         self.padding = "8dp"
         self.spacing = "8dp"
         self.elevation = 5
+        self.orientation = "vertical"
 
-        # BoxLayout for organizing the content
-        box_layout = MDBoxLayout(orientation='vertical', spacing='8dp')
-        self.add_widget(box_layout)
+        image = AsyncImage(source=self.product_data['image_url'], size_hint=(1, 0.75), allow_stretch=True)
+        self.add_widget(image)
 
-        # Add an image on top
-        image_height_factor = 0.75  # Adjust this factor to your preference
-        image = AsyncImage(source=product_data['image_url'], size_hint=(1, image_height_factor), allow_stretch=True)
-        box_layout.add_widget(image)
+        details = f"{self.product_data['name']}\nPoints Cost: {self.product_data['points_cost']}"
+        label = MDLabel(text=details, size_hint_y=None, height="48dp", theme_text_color="Secondary")
+        self.add_widget(label)
 
-        # Adjust the height of the label accordingly
-        details = f"{product_data['name']}\nPoints Cost: {product_data['points_cost']}"
-        label_height_factor = 1 - image_height_factor
-        label = MDLabel(text=details, size_hint_y=None, height=self.height * label_height_factor, theme_text_color="Secondary")
-        box_layout.add_widget(label)
-
-        # Availability indicator
-        availability = "Available" if product_data['available'] else "Not Available"
-        availability_color = [0, 1, 0, 1] if product_data['available'] else [1, 0, 0, 1]  # RGB green or red
-        availability_icon = "check-circle" if product_data['available'] else "close-circle"
+        availability = "Available" if self.product_data['available'] else "Not Available"
+        availability_color = [0, 1, 0, 1] if self.product_data['available'] else [1, 0, 0, 1]
+        availability_icon = "check-circle" if self.product_data['available'] else "close-circle"
         self.availability_label = OneLineIconListItem(text=availability)
         self.availability_label.add_widget(IconLeftWidget(icon=availability_icon, theme_text_color="Custom", text_color=availability_color))
-        box_layout.add_widget(self.availability_label)
+        self.add_widget(self.availability_label)
 
-    def on_request_error(self, request, result):
-        print("Error fetching data from the API:", request, result)
-        # Add a UI element to indicate the error here
+    def on_release(self):
+        app = MDApp.get_running_app()
+        app.show_product_details(self.product_data)
 
-    def on_request_success(self, request, result):
-        # Update the grid with the new data
-        for item in result:
-            product_box = ProductCard(product_data=item)
-            self.grid_layout.add_widget(product_box)
-
-    def refresh_grid(self, *args):
-        # Clear the current grid
-        self.grid_layout.clear_widgets()
-
-        # Fetch the data from the API
-        api_url = 'http://localhost/api/scrape_data/'
-        UrlRequest(api_url, on_success=self.on_request_success, on_failure=self.on_request_error, on_error=self.on_request_error)
-
-    def build(self):
-        self.theme_cls.theme_style = "Dark"  # Use dark theme for a modern look
-        self.theme_cls.primary_palette = "Gray"  # Set primary palette to grey
-        self.title = 'Modern Grid App'
-
-        # Main layout is a ScrollView to allow scrolling through the grid
-        scroll_view = ScrollView(size_hint=(1, None), size=(Window.width, Window.height))
-        self.grid_layout = MDGridLayout(cols=1, spacing="10dp", size_hint_y=None)
-        self.grid_layout.bind(minimum_height=self.grid_layout.setter('height'))
-        scroll_view.add_widget(self.grid_layout)
-
-        # Main BoxLayout
-        self.main_layout = BoxLayout(orientation='vertical')
-        self.main_layout.add_widget(scroll_view)
-
-        # Refresh button at the bottom
-        refresh_button = MDRaisedButton(
-            text='Refresh',
-            size_hint_y=None,
-            height="50dp",
-            md_bg_color=self.theme_cls.primary_color,
-            on_release=self.refresh_grid
-        )
-        self.main_layout.add_widget(refresh_button)
-
-        # Initial data load
-        self.refresh_grid()
-
-        return self.main_layout
-
-class ModernGridApp(MDApp):
-    
+class MainScreen(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        self.name = 'main'
         self.product_ids = set()
-        
-    def build(self):
-        self.theme_cls.theme_style = "Dark"
-        self.theme_cls.primary_palette = "Gray"
-        self.title = 'Modern Grid App'
-
-        # Main layout is a ScrollView
-        self.scroll_view = ScrollView(size_hint=(1, 1)) # Make the ScrollView fill its parent
         self.grid_layout = MDGridLayout(cols=1, spacing=dp(10), size_hint_y=None)
         self.grid_layout.bind(minimum_height=self.grid_layout.setter('height'))
-        self.scroll_view.add_widget(self.grid_layout)
-
-        # Main BoxLayout
-        self.main_layout = BoxLayout(orientation='vertical')
-        self.main_layout.add_widget(self.scroll_view)
-
+        
+        scroll_view = ScrollView(size_hint=(1, 1))
+        scroll_view.add_widget(self.grid_layout)
+        
+        self.add_widget(scroll_view)
+        
         # Refresh button at the bottom
         refresh_button = MDRaisedButton(
             text='Refresh',
             size_hint_y=None,
             height=dp(50),
-            md_bg_color=self.theme_cls.primary_color,
+            md_bg_color=MDApp.get_running_app().theme_cls.primary_color,
             on_release=self.refresh_grid
         )
-        self.main_layout.add_widget(refresh_button)
+        self.add_widget(refresh_button)
 
-        # Initial data load
         self.refresh_grid()
 
-        # Bind the size of the main_layout to the window size to ensure resizing
-        Window.bind(size=self._update_layout_size)
-
-        return self.main_layout
-    
-    def _update_layout_size(self, instance, value):
-        self.scroll_view.size = value
-
     def refresh_grid(self, *args):
-        # Clear the current grid and the set of product IDs
         self.grid_layout.clear_widgets()
-        self.product_ids.clear()  # Clear the set to accept the new batch of products
-
-        # Fetch the data from the API
+        self.product_ids.clear()
+        
         api_url = 'http://localhost/api/scrape_data/'
         UrlRequest(api_url, on_success=self.on_request_success, on_failure=self.on_request_error, on_error=self.on_request_error)
-        
-    def save_data_to_cache(self, data):
-        store = JsonStore('cache.json')
-        store.put('offers', data=data)
-
-    def load_data_from_cache(self):
-        store = JsonStore('cache.json')
-        if store.exists('offers'):
-            return store.get('offers')['data']
-        return None
-
+    
     def on_request_success(self, request, result):
-        # Update the grid with the new data
         for item in result:
-            product_id = item.get('id')  # Assuming each product has a unique 'id' field
+            product_id = item.get('id')
             if product_id not in self.product_ids:
-                self.product_ids.add(product_id)  # Add the product ID to the set
+                self.product_ids.add(product_id)
                 product_box = ProductCard(product_data=item)
                 self.grid_layout.add_widget(product_box)
         
-        # As the request was successful, save the data to cache
-        self.save_data_to_cache(result)
-
     def on_request_error(self, request, result):
         print("Error fetching data from the API:", request, result)
-        # Load cached data if available
-        cached_data = self.load_data_from_cache()
-        if cached_data:
-            print("Loading data from cache.")
-            self.on_request_success(request, cached_data)
-        else:
-            print("No cached data available.")
-            # Add a UI element to indicate the error here
+
+class ProductDetailsScreen(Screen):
+    def __init__(self, name, product_data, **kwargs):
+        super().__init__(name=name, **kwargs)
+        self.product_data = product_data
+        self.create_product_details()
+
+    def create_product_details(self):
+        layout = MDBoxLayout(orientation='vertical', spacing=dp(10), padding=dp(20))
+        self.add_widget(layout)
+
+        # Add widgets for product details
+        image = AsyncImage(source=self.product_data['image_url'], size_hint=(1, 0.3), allow_stretch=True)
+        layout.add_widget(image)
+
+        details_label = MDLabel(
+            text=f"{self.product_data['name']}\nPoints Cost: {self.product_data['points_cost']}\nDescription:{self.product_data['description']}\nStock: {self.product_data['stock']}",
+            size_hint_y=None,
+            theme_text_color="Secondary"
+        )
+        layout.add_widget(details_label)
+
+        back_button = MDRaisedButton(
+            text="Back",
+            size_hint=(1, None),
+            height=dp(48),
+            on_release=self.go_back
+        )
+        layout.add_widget(back_button)
+
+    def go_back(self, *args):
+        MDApp.get_running_app().root.current = 'main'
+
+class ModernGridApp(MDApp):
+    def build(self):
+        self.theme_cls.theme_style = "Dark"
+        self.theme_cls.primary_palette = "Gray"
+        self.title = 'Modern Grid App'
+
+        self.screen_manager = ScreenManager(transition=SlideTransition())
+        self.main_screen = MainScreen()
+        self.screen_manager.add_widget(self.main_screen)
+
+        return self.screen_manager
+
+    def show_product_details(self, product_data):
+        # Generate a unique screen name for each product detail screen
+        screen_name = f"product_details_{product_data['id']}"
+
+        # Check if the screen already exists and remove it
+        if self.screen_manager.has_screen(screen_name):
+            self.screen_manager.remove_widget(self.screen_manager.get_screen(screen_name))
+
+        # Create a new product details screen with a unique name
+        details_screen = ProductDetailsScreen(name=screen_name, product_data=product_data)
+        self.screen_manager.add_widget(details_screen)
+        self.screen_manager.current = screen_name
 
 if __name__ == '__main__':
     ModernGridApp().run()

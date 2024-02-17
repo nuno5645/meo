@@ -40,7 +40,6 @@ class ScrapeData(APIView):
         if response.status_code == 200:
             # If response is successful, parse the JSON data
             products = response.json()
-            print(products)
         else:
             print(f"Failed to retrieve products, status code: {response.status_code}, response: {response.text}")
 
@@ -52,22 +51,38 @@ class ScrapeData(APIView):
             points_cost = product.get('PointsPrice')
             available = not product.get('IsOutOfStock', True)  # Flip the boolean since we want to know if it's available
             image_url = product.get('ImageUrl')
+            link_url = product.get('LinkUrl')
+            description = product.get('Description')
             
+            product_variants = product.get('ProductVariants', [])
+            if product_variants:
+                stock = product_variants[0].get('Stock')
+            else:
+                stock = 0
+
             my_model_product, created = MyModel.objects.get_or_create(
-                    name=name,
-                    defaults={
-                        'name': name,
-                        'points': points_cost,
-                        'url': image_url
-                    }
-                )
+                name=name,
+                defaults={
+                    'name': name,
+                    'points': points_cost,
+                    'url': image_url,
+                    'available': available,
+                    'image_url': image_url,
+                    'link_url': link_url,
+                    'description': description,
+                    'stock': stock
+                }
+            )
             
             product_list.append({
                 'id': my_model_product.id,
                 'name': name,
                 'points_cost': points_cost,
                 'available': available,
-                'image_url': image_url
+                'image_url': image_url,
+                'link_url': link_url,
+                'description': description[0],
+                'stock': stock
             })
             
         print(product_list)
