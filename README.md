@@ -2,6 +2,10 @@
 
 The MEO Deals Tracker is an application designed to monitor and display the latest promotional offers available on the MEO website. Intended to provide a seamless and user-friendly experience, the app aggregates current deals, presenting them in an easy-to-navigate interface, ensuring that users never miss out on the best available offers.
 
+## First Draft of the App
+![image](https://github.com/nuno5645/meo/assets/21297421/14fdd05a-71df-4356-a206-99a1070d7167)
+
+
 
 # Getting Started
 To get the application running, you need to have Python installed on your system, along with the Kivy and KivyMD libraries. You also need to set up the Django backend and have Docker installed to run the services defined in the docker-compose.yml file.
