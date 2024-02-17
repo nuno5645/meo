@@ -1,0 +1,91 @@
+version: "3.1"
+
+services:
+
+  djangoapp:
+    container_name: DJANGO
+    image: djangoapp:1.0.0
+    build: .
+    working_dir: /src
+    volumes:
+      - .:/src
+      - static_volume:/static
+      - media_volume:/media
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+
+    networks:
+      - nginx_network
+      - database_network
+    depends_on:
+      - database
+      - redis
+
+  nginx:
+    container_name: NGINX
+    image: nginx:1.13
+    ports: # use port 80:80 in production
+      - 80:80
+    volumes:
+      - ./config/nginx/conf.d:/etc/nginx/conf.d
+      - static_volume:/static
+      - media_volume:/media
+
+    depends_on:
+      - djangoapp
+    networks:
+      - nginx_network
+
+  database:
+    container_name: DATABASE
+    image: postgres:15.3
+    env_file: # use the config file we defined
+      - config/db/database_env
+    networks:
+      - database_network
+    environment:
+      - TZ=Europe/Lisbon
+    volumes:
+      - database2_volume:/var/lib/postgresql/data
+      - ./pg_dump:/pg_dump
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    container_name: PGADMIN
+    image: dpage/pgadmin4:7.3
+    env_file:
+      - config/db/pgadmin_env
+    depends_on:
+      - database
+    networks:
+      - database_network
+    volumes:
+      - ./config/db/servers.json:/pgadmin4/servers.json
+    ports:
+      - "5050:80"
+      
+  redis:
+    image: redis:alpine
+    container_name: REDIS
+    networks:
+      - redis_network
+
+
+networks:
+  nginx_network:
+    driver: bridge
+  database_network:
+    driver: bridge
+  ftp_network:
+    driver: bridge
+  redis_network:
+    driver: bridge
+    
+
+volumes: # you need to declare volumes in this directive for persistent storage
+  database2_volume:
+  static_volume:
+  media_volume:

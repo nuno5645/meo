@@ -1,0 +1,8 @@
+uwsgi
+psycopg2-binary
+django==4.2.4
+django-compressor
+requests
+djangorestframework
+beautifulsoup4
+tzdata
