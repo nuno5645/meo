@@ -15,7 +15,6 @@ To get the application running, you need to have Python installed on your system
 * Kivy
 * KivyMD
 * Docker
-* Django
 
 # Installation
 ## Install Python dependencies:
