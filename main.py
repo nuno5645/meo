@@ -1,21 +1,23 @@
-from kivy.lang import Builder
-from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
-from kivymd.app import MDApp
-from kivymd.uix.button import MDRaisedButton
-from kivymd.uix.gridlayout import MDGridLayout
-from kivymd.uix.boxlayout import BoxLayout
-from kivy.network.urlrequest import UrlRequest
+import webbrowser
+
 from kivy.core.window import Window
-from kivymd.uix.scrollview import ScrollView
-from kivymd.uix.card import MDCard
-from kivymd.uix.label import MDLabel
-from kivy.uix.image import AsyncImage
-from kivymd.uix.behaviors import RectangularRippleBehavior
-from kivymd.uix.boxlayout import MDBoxLayout
-from kivymd.uix.list import OneLineIconListItem, IconLeftWidget
 from kivy.metrics import dp
-from kivy.storage.jsonstore import JsonStore
-from kivymd.uix.screen import MDScreen
+from kivy.network.urlrequest import UrlRequest
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.image import AsyncImage
+from kivy.uix.screenmanager import Screen, ScreenManager, SlideTransition
+from kivy.uix.scrollview import ScrollView
+from kivymd.app import MDApp
+from kivymd.uix.behaviors import RectangularRippleBehavior
+from kivymd.uix.boxlayout import BoxLayout, MDBoxLayout
+from kivymd.uix.button import MDIconButton, MDRaisedButton
+from kivymd.uix.card import MDCard
+from kivymd.uix.gridlayout import MDGridLayout
+from kivymd.uix.label import MDLabel
+from kivymd.uix.list import IconLeftWidget, OneLineIconListItem
+from kivymd.uix.scrollview import ScrollView
+from kivymd.uix.toolbar import MDTopAppBar
+
 Window.size = (400, 650)
 
 class ProductCard(MDCard, RectangularRippleBehavior):
@@ -53,25 +55,54 @@ class MainScreen(Screen):
         super().__init__(**kwargs)
         self.name = 'main'
         self.product_ids = set()
-        self.grid_layout = MDGridLayout(cols=1, spacing=dp(10), size_hint_y=None)
+        
+        # Main layout is a BoxLayout with vertical orientation
+        main_layout = BoxLayout(orientation='vertical')
+        
+        # Toolbar at the top for the refresh button
+        self.toolbar = MDTopAppBar(
+            title="Ofertas MEO",
+            md_bg_color=MDApp.get_running_app().theme_cls.primary_color,
+            elevation=10
+        )
+        self.toolbar.right_action_items = [['refresh', lambda x: self.refresh_grid()]]
+        main_layout.add_widget(self.toolbar)
+        
+        # Grid layout for products
+        self.grid_layout = MDGridLayout(cols=1, spacing=dp(10), size_hint_y=None, padding=dp(10))
         self.grid_layout.bind(minimum_height=self.grid_layout.setter('height'))
         
-        scroll_view = ScrollView(size_hint=(1, 1))
+        # Scroll view to contain the grid layout
+        scroll_view = ScrollView(size_hint=(1, 1), bar_width=dp(10))
         scroll_view.add_widget(self.grid_layout)
         
-        self.add_widget(scroll_view)
+        # Adding shadow effect for depth
+        main_layout.add_widget(scroll_view)
         
-        # Refresh button at the bottom
-        refresh_button = MDRaisedButton(
-            text='Refresh',
+        # User toolbar at the bottom
+        user_toolbar = MDBoxLayout(
             size_hint_y=None,
             height=dp(50),
             md_bg_color=MDApp.get_running_app().theme_cls.primary_color,
-            on_release=self.refresh_grid
+            padding=dp(10)
         )
-        self.add_widget(refresh_button)
+        
+        # Store the points_label as an instance variable
+        self.points_label = MDLabel(
+            text="Points Balance: 0",
+            halign="center",
+            valign="center",
+            theme_text_color="Secondary"
+        )
+        user_toolbar.add_widget(self.points_label)
+        main_layout.add_widget(user_toolbar)
 
+        # Adding the main layout to the screen
+        self.add_widget(main_layout)
+        
+        # Initial refresh
         self.refresh_grid()
+        self.refresh_points_balance() # Add this line to refresh the points balance on screen load
 
     def refresh_grid(self, *args):
         self.grid_layout.clear_widgets()
@@ -90,6 +121,19 @@ class MainScreen(Screen):
         
     def on_request_error(self, request, result):
         print("Error fetching data from the API:", request, result)
+    
+    def refresh_points_balance(self):
+        points_url = 'http://localhost/api/points/'
+        UrlRequest(points_url, on_success=self.on_points_success, on_failure=self.on_points_error, on_error=self.on_points_error)
+
+    def on_points_success(self, request, result):
+        points_balance = str(result.get('points', '0'))  # Get the balance or default to '0'
+        self.points_label.text = f"Points Balance: {points_balance}"
+
+    def on_points_error(self, request, result):
+        print("Error fetching points balance from the API:", request, result)
+        # Optionally, handle the error more gracefully in the UI
+
 
 class ProductDetailsScreen(Screen):
     def __init__(self, name, product_data, **kwargs):
@@ -104,24 +148,37 @@ class ProductDetailsScreen(Screen):
         # Add widgets for product details
         image = AsyncImage(source=self.product_data['image_url'], size_hint=(1, 0.3), allow_stretch=True)
         layout.add_widget(image)
-
+        
         details_label = MDLabel(
-            text=f"{self.product_data['name']}\nPoints Cost: {self.product_data['points_cost']}\nDescription:{self.product_data['description']}\nStock: {self.product_data['stock']}",
+            text=f"{self.product_data['name']}\nPoints Cost: {self.product_data['points_cost']}\nDescription: {self.product_data['description']}\nStock: {self.product_data['stock']}",
             size_hint_y=None,
             theme_text_color="Secondary"
         )
         layout.add_widget(details_label)
 
+        # Buttons layout
+        buttons_layout = MDBoxLayout(size_hint=(1, None), height=dp(48), spacing=dp(10))
+        
         back_button = MDRaisedButton(
             text="Back",
-            size_hint=(1, None),
-            height=dp(48),
             on_release=self.go_back
         )
-        layout.add_widget(back_button)
+        link_button = MDIconButton(
+            icon="web",
+            on_release=self.open_link
+        )
+        # Add buttons to the buttons layout
+        buttons_layout.add_widget(back_button)
+        buttons_layout.add_widget(link_button)
+
+        # Add buttons layout to the main layout
+        layout.add_widget(buttons_layout)
 
     def go_back(self, *args):
         MDApp.get_running_app().root.current = 'main'
+
+    def open_link(self, *args):
+        webbrowser.open(self.product_data['link_url'])
 
 class ModernGridApp(MDApp):
     def build(self):
