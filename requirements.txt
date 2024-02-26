@@ -6,3 +6,4 @@ requests
 djangorestframework
 beautifulsoup4
 tzdata
+django-cors-headers
