@@ -4,7 +4,6 @@ services:
     container_name: DJANGO
     image: djangoapp:1.0.0
     build: .
-    working_dir: /src
     volumes:
       - .:/src
       - static_volume:/static

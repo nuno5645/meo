@@ -25,4 +25,4 @@ WORKDIR /src
 RUN python3.11 /src/manage.py crontab add
 RUN service cron start 
 
-CMD ["python3.11", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["uwsgi", "--ini", "/src/config/uwsgi/ws.ini"]
