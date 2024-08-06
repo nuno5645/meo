@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Card, CardBody, CardFooter, Row, Col, Badge } from "reactstrap";
+import { Card, CardBody, CardFooter, Row, Col, Badge, ButtonGroup, Button } from "reactstrap";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import './transitions.css'; // Import the CSS file for transitions
 
 function Dashboard() {
   const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [filter, setFilter] = useState('all'); // 'all', 'available', or 'unavailable'
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -14,9 +16,27 @@ function Dashboard() {
 
     fetch(`${baseUrl}/api/scrape_data/`)
       .then(response => response.json())
-      .then(data => setProducts(data))
+      .then(data => {
+        setProducts(data);
+        setFilteredProducts(data);
+      })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
+
+  useEffect(() => {
+    let filtered;
+    switch(filter) {
+      case 'available':
+        filtered = products.filter(product => product.available);
+        break;
+      case 'unavailable':
+        filtered = products.filter(product => !product.available);
+        break;
+      default:
+        filtered = products;
+    }
+    setFilteredProducts(filtered);
+  }, [filter, products]);
 
   const handleCardClick = (id) => {
     navigate(`/admin/product-details/${id}`);
@@ -25,8 +45,30 @@ function Dashboard() {
   return (
     <>
       <div className="content">
+        <div className="filter-container" style={{ marginBottom: '20px' }}>
+          <ButtonGroup size="sm">
+            <Button 
+              color={filter === 'all' ? 'primary' : 'secondary'}
+              onClick={() => setFilter('all')}
+            >
+              All
+            </Button>
+            <Button 
+              color={filter === 'available' ? 'primary' : 'secondary'}
+              onClick={() => setFilter('available')}
+            >
+              Available
+            </Button>
+            <Button 
+              color={filter === 'unavailable' ? 'primary' : 'secondary'}
+              onClick={() => setFilter('unavailable')}
+            >
+              Unavailable
+            </Button>
+          </ButtonGroup>
+        </div>
         <TransitionGroup component={Row}>
-          {products.map((product) => (
+          {filteredProducts.map((product) => (
             <CSSTransition
               key={product.id}
               timeout={300}

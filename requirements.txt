@@ -7,3 +7,7 @@ djangorestframework
 beautifulsoup4
 tzdata
 django-cors-headers
+django_apscheduler
+prettytable
+django-crontab
+python-telegram-bot

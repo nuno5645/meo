@@ -41,9 +41,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "corsheaders",
     'rest_framework',
-    'compressor'
+    'compressor',
+    'django_crontab',
 ]
 
+#CRONJOBS EVERY MINUTE 
+
+CRONJOBS = [
+    ('* * * * *', 'api.scheduler.scheduler', '>> ' + os.path.join(BASE_DIR, 'log/debug_cron.log') + ' 2>&1')
+]
+ 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -121,7 +128,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/London'
 
 USE_I18N = True
 
@@ -159,3 +166,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+PUSHOVER_USER_KEY = "u9mva3votnj8pjm4ic8iuv7vz2f2h9"
+PUSHOVER_API_TOKEN = "acn7akd5e246u7au1frdi4kcznbev2"
+TEXTMEBOT_API_KEY = "YOUR_TEXTMEBOT_API_KEY_HERE"
+TELEGRAM_BOT_TOKEN = "6934284105:AAGwaC3OE5OTAKWp2lyYBhEsUeFU0g01BYk"

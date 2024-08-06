@@ -1,0 +1,1816 @@
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:05:01.525276
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:05:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:05:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:05:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:06:01.759755
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:06:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:06:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:06:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:07:02.164060
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:07:05 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:07:05 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:07:05 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:08:01.617292
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:26:47.391941
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.pushover.net:443
+ERROR:django_crontab.crontab:Failed to complete cronjob at ('* * * * *', 'api.scheduler.scheduler', '>> /src/log/debug_cron.log 2>&1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.11/ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='loja.meo.pt', port=443): Max retries exceeded with url: /sensacoes-meos (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/src/api/management/commands/update_products.py", line 22, in handle
+    products_data = MeoScraper.scrape_sensacoes_meos()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/MeoService.py", line 8, in scrape_sensacoes_meos
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='loja.meo.pt', port=443): Max retries exceeded with url: /sensacoes-meos (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.11/ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pushover.net', port=443): Max retries exceeded with url: /1/messages.json (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/src/api/scheduler.py", line 12, in scheduler
+    call_command('update_products')
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/__init__.py", line 194, in call_command
+    return command.execute(*args, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/management/commands/update_products.py", line 64, in handle
+    self.send_error_notifications(str(e))
+  File "/src/api/management/commands/update_products.py", line 152, in send_error_notifications
+    success, result = self.notifier.send_pushover(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/sms_service.py", line 32, in send_pushover
+    response = requests.post(self.PUSHOVER_API_URL, data=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.pushover.net', port=443): Max retries exceeded with url: /1/messages.json (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+Scheduler is running
+Updating products...
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:27:01.982352
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.pushover.net:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.pushover.net:443
+ERROR:django_crontab.crontab:Failed to complete cronjob at ('* * * * *', 'api.scheduler.scheduler', '>> /src/log/debug_cron.log 2>&1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.11/ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='loja.meo.pt', port=443): Max retries exceeded with url: /sensacoes-meos (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/src/api/management/commands/update_products.py", line 22, in handle
+    products_data = MeoScraper.scrape_sensacoes_meos()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/MeoService.py", line 8, in scrape_sensacoes_meos
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='loja.meo.pt', port=443): Max retries exceeded with url: /sensacoes-meos (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.11/ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pushover.net', port=443): Max retries exceeded with url: /1/messages.json (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/src/api/scheduler.py", line 12, in scheduler
+    call_command('update_products')
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/__init__.py", line 194, in call_command
+    return command.execute(*args, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/management/commands/update_products.py", line 64, in handle
+    self.send_error_notifications(str(e))
+  File "/src/api/management/commands/update_products.py", line 152, in send_error_notifications
+    success, result = self.notifier.send_pushover(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/sms_service.py", line 32, in send_pushover
+    response = requests.post(self.PUSHOVER_API_URL, data=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.pushover.net', port=443): Max retries exceeded with url: /1/messages.json (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+Scheduler is running
+Updating products...
+ERROR:django_crontab.crontab:Failed to complete cronjob at ('* * * * *', 'api.scheduler.scheduler', '>> /src/log/debug_cron.log 2>&1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0xffff9a479610>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='loja.meo.pt', port=443): Max retries exceeded with url: /sensacoes-meos (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9a479610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/src/api/management/commands/update_products.py", line 22, in handle
+    products_data = MeoScraper.scrape_sensacoes_meos()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/MeoService.py", line 8, in scrape_sensacoes_meos
+    response = requests.get(url)
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='loja.meo.pt', port=443): Max retries exceeded with url: /sensacoes-meos (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0xffff9a479610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 652, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connection.py", line 805, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.11/ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: TLS/SSL connection has been closed (EOF) (_ssl.c:992)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.pushover.net', port=443): Max retries exceeded with url: /1/messages.json (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/src/api/scheduler.py", line 12, in scheduler
+    call_command('update_products')
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/__init__.py", line 194, in call_command
+    return command.execute(*args, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/management/commands/update_products.py", line 64, in handle
+    self.send_error_notifications(str(e))
+  File "/src/api/management/commands/update_products.py", line 152, in send_error_notifications
+    success, result = self.notifier.send_pushover(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/api/sms_service.py", line 32, in send_pushover
+    response = requests.post(self.PUSHOVER_API_URL, data=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/requests/adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.pushover.net', port=443): Max retries exceeded with url: /1/messages.json (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+Scheduler is running
+Updating products...
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:28:02.261092
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:28:03 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:28:03 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:28:03 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:29:01.578771
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:29:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:29:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:29:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:30:01.534629
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:30:08 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:30:09 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:30:09 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:31:01.508788
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:31:08 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:31:08 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:31:08 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:32:02.161893
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:32:05 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:32:05 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:32:05 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:33:01.483983
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:33:03 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:33:03 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:33:03 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:34:02.156962
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:34:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:34:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:34:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:35:02.211711
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:35:04 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:35:04 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:35:04 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:36:01.493546
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:36:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:36:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:36:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:37:01.523137
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:37:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:37:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:37:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:38:01.596194
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:38:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:38:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:38:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:39:01.522751
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:39:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:39:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:39:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:40:01.641801
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:40:03 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:40:03 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:40:03 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:41:02.470808
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:41:03 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:41:03 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:41:03 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:42:01.724315
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:42:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:42:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:42:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:43:02.056922
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:43:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:43:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:43:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:44:02.182317
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:44:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:44:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:44:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:45:02.304930
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:45:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:45:03 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:45:03 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:46:01.511125
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:46:01 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:46:01 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:46:01 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:47:01.486556
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:47:01 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:47:01 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:47:01 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:48:01.482771
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:48:01 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:48:01 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:48:01 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:49:02.378290
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:49:03 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:49:03 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:49:03 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 13:50:01.632864
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 13:50:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 13:50:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 13:50:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:16:18.938049
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:16:19 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:16:19 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:16:19 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:17:02.228415
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:17:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:17:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:17:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:18:02.385295
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:18:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:18:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:18:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:19:02.219129
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:19:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:19:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:19:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:20:02.104656
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:20:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:20:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:20:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:21:01.992225
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:21:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:21:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:21:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:22:01.831398
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:22:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:22:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:22:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:23:01.814806
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:23:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:23:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:23:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:24:01.642598
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:24:01 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:24:01 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:24:01 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:25:02.410128
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:25:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:25:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:25:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:26:02.220019
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:26:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:26:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:26:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:27:02.382496
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:27:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:27:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:27:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:28:02.174049
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:28:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:28:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:28:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:29:02.138176
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:29:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:29:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:29:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:30:02.128077
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:30:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:30:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:30:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:31:02.212024
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:31:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:31:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:31:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:32:01.996063
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:32:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:32:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:32:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:33:01.783960
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:33:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:33:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:33:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:34:01.585666
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:34:01 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:34:01 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:34:01 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:35:02.457166
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:35:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:35:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:35:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+DEBUG:root:Scheduler function ran at: 2024-08-06 14:36:02.254867
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): loja.meo.pt:443
+DEBUG:urllib3.connectionpool:https://loja.meo.pt:443 "GET /sensacoes-meos HTTP/11" 200 None
+Scheduler is running
+Updating products...
+Scraped 3 products
+Successfully updated products
+Total products scraped: 3
+New products added: 0
+Products marked as unavailable: 0
+
+All Products:
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Name                                                                                | Points | Available | Stock |      Last Seen      | Is New |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
+| Convite Duplo Camarote MEOS - Olivia Rodrigo - Guts World Tour - 23Jun              |   1500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 02ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 03ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Camarote MEOS - Travis Scott Utopia Circus Maximus World Tour - 04ago |   1500 |     No    |     0 | 2024-08-02 22:08:02 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Geórgia x Portugal 26jun       |    300 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Convite Duplo Dia De Portugal na Cidade do Futebol - Oitavos de Final 01jul         |    200 |     No    |     0 | 2024-07-29 02:10:07 |   No   |
+| MEO Monte Verde - Passe Duplo Geral 3 Dias com acesso VIP                           |    600 |     No    |     0 | 2024-08-06 14:36:02 |   No   |
+| Museu das Comunicações                                                              |     50 |    Yes    |     1 | 2024-08-06 14:36:02 |   No   |
+| Vale MEO BlueTicket €10                                                             |    800 |    Yes    |     1 | 2024-08-06 14:36:02 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Geórgia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Jogo Meias Finais - 09jul                |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
+| Viagem para apoiar a Seleção na Alemanha - Turquia x Portugal                       |   2500 |     No    |     0 | 2024-07-29 01:10:07 |   No   |
++-------------------------------------------------------------------------------------+--------+-----------+-------+---------------------+--------+
