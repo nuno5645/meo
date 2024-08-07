@@ -1,9 +1,11 @@
+# api/management/commands/update_products.py
 from django.core.management.base import BaseCommand
 from django.utils import timezone
 from api.models import Product, CronJobLog
 from api.MeoService import MeoScraper
 from api.sms_service import NotificationService
 from prettytable import PrettyTable
+
 
 class Command(BaseCommand):
     help = 'Updates product data from MEO website, sends notifications for new products, and displays all products'
@@ -13,6 +15,7 @@ class Command(BaseCommand):
         self.notifier = NotificationService()
 
     def handle(self, *args, **options):
+        # Create a cron job log entry
         cron_log = CronJobLog(cron_id='update_products')
         cron_log.save()
 
@@ -48,14 +51,16 @@ class Command(BaseCommand):
             self.stdout.write(f'Total products scraped: {len(products_data)}')
             self.stdout.write(f'New products added: {len(new_products)}')
             self.stdout.write(f'Products marked as unavailable: {len(unavailable_products)}')
-            
-            # Display table with all products
-            self.display_products_table()
 
+            # Update the cron log entry status as successful
             cron_log.status = True
             cron_log.save()
 
+            # Display table with all products
+            self.display_products_table()
+
         except Exception as e:
+            # In case of an error
             cron_log.status = False
             cron_log.error_message = str(e)
             cron_log.save()
@@ -63,6 +68,7 @@ class Command(BaseCommand):
             # Send error notifications
             self.send_error_notifications(str(e))
             
+            self.stdout.write(self.style.ERROR(f'An error occurred: {e}'))
             raise e
 
     def update_or_create_product(self, product):
